@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">quizApp</string>
+    <string name="qn_1">Question 1</string>
+    <string name="qn_1_text">This is a sample question, just to test how my layout will look. And because it
+        should end with a question mark, I ask, when is a question not a question?</string>
+    <string name="soln_1_a">When it does not contain a question mark</string>
+    <string name="soln_1_b">When the asker asks it toungue in cheek</string>
 </resources>

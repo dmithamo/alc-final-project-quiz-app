@@ -4,7 +4,235 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#1976d2"
     tools:context="com.example.dennis.quizapp.MainActivity">
+
+    <LinearLayout
+        android:paddingTop="@dimen/layout_padding_top_bottom"
+        android:paddingLeft="@dimen/layout_padding_left"
+        android:paddingRight="@dimen/layout_padding_right"
+        android:paddingBottom="@dimen/layout_padding_top_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/qn_1"
+            android:textColor="@color/question_color"
+            android:layout_marginBottom="@dimen/qn_margin_bottom"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/qn_1_text"
+            android:textColor="@color/question_color"
+            android:textAppearance="?android:textAppearanceSmall"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="@dimen/soln_margin_right"
+            android:layout_marginTop="@dimen/soln_margin_top"
+            android:layout_marginBottom="@dimen/soln_margin_bottom"
+            android:layout_marginLeft="@dimen/soln_margin_left"
+            android:background="@color/solutions_bg">
+
+            <CheckBox
+                android:padding="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/soln_1_a"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/soln_divider_size"
+                android:background="@color/soln_divider_color" />
+
+            <CheckBox
+                android:padding="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/soln_1_b"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/soln_divider_size"
+                android:background="@color/soln_divider_color" />
+
+            <CheckBox
+                android:padding="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/soln_1_a"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/soln_divider_size"
+                android:background="@color/soln_divider_color" />
+
+            <CheckBox
+                android:padding="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/soln_1_b"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/soln_divider_size"
+                android:background="@color/soln_divider_color" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Question 2"
+            android:textColor="@color/question_color"
+            android:layout_marginBottom="@dimen/qn_margin_bottom"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/qn_1_text"
+            android:textColor="@color/question_color"
+            android:textAppearance="?android:textAppearanceSmall"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="@dimen/soln_margin_right"
+            android:layout_marginTop="@dimen/soln_margin_top"
+            android:layout_marginBottom="@dimen/soln_margin_bottom"
+            android:layout_marginLeft="@dimen/soln_margin_left"
+            android:background="@color/solutions_bg">
+
+            <CheckBox
+                android:padding="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/soln_1_a"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/soln_divider_size"
+                android:background="@color/soln_divider_color" />
+
+            <CheckBox
+                android:padding="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/soln_1_b"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/soln_divider_size"
+                android:background="@color/soln_divider_color" />
+
+            <CheckBox
+                android:padding="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/soln_1_a"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/soln_divider_size"
+                android:background="@color/soln_divider_color" />
+
+            <CheckBox
+                android:padding="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/soln_1_b"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/soln_divider_size"
+                android:background="@color/soln_divider_color" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Question 3"
+            android:textColor="@color/question_color"
+            android:layout_marginBottom="@dimen/qn_margin_bottom"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/qn_1_text"
+            android:textColor="@color/question_color"
+            android:textAppearance="?android:textAppearanceSmall"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="@dimen/soln_margin_right"
+            android:layout_marginTop="@dimen/soln_margin_top"
+            android:layout_marginBottom="@dimen/soln_margin_bottom"
+            android:layout_marginLeft="@dimen/soln_margin_left"
+            android:background="@color/solutions_bg">
+
+            <CheckBox
+                android:padding="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/soln_1_a"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/soln_divider_size"
+                android:background="@color/soln_divider_color" />
+
+            <CheckBox
+                android:padding="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/soln_1_b"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/soln_divider_size"
+                android:background="@color/soln_divider_color" />
+
+            <CheckBox
+                android:padding="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/soln_1_a"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/soln_divider_size"
+                android:background="@color/soln_divider_color" />
+
+            <CheckBox
+                android:padding="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/soln_1_b"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/soln_divider_size"
+                android:background="@color/soln_divider_color" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
 
 
 </ScrollView>
