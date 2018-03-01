@@ -8,6 +8,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,23 +22,26 @@ public class MainActivity extends AppCompatActivity {
      */
     public void gradeQuiz(View view) {
 
-//      Question One params
-        RadioGroup questionOne = (RadioGroup) findViewById(R.id.rg_qn1);
-        int selectedQnOneID = questionOne.getCheckedRadioButtonId();
-        int correctQnOneID = findViewById(R.id.soln_1b).getId();
-
-//      Call method that validates answers with qn one params
-        checkAnswers(selectedQnOneID, correctQnOneID);
-
-
-    }
-
-    public void checkAnswers(int correctID, int selectedID) {
         int score = 0;
         int grade = 0;
         String remark = "";
 
-        if (selectedID == correctID) {
+//      Question One params
+        RadioGroup questionOne = (RadioGroup) findViewById(R.id.rg_qn1);
+        int selectedQnOneID = questionOne.getCheckedRadioButtonId();
+        int correctQnOneID = findViewById(R.id.soln_1c).getId();
+//      Check qn 1 answer
+        if (selectedQnOneID == correctQnOneID) {
+            score += 1;
+        }
+        ;
+
+        //  Question Two params
+        RadioGroup questionTwo = (RadioGroup) findViewById(R.id.rg_qn2);
+        int selectedQnTwoID = questionTwo.getCheckedRadioButtonId();
+        int correctQnTwoID = findViewById(R.id.soln_2a).getId();
+//      Check qn 2 answer
+        if (selectedQnTwoID == correctQnTwoID) {
             score += 1;
         }
 
@@ -46,4 +50,5 @@ public class MainActivity extends AppCompatActivity {
         scoreTextView.setText(displayScore);
 
     }
+
 }
