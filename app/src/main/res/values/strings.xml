@@ -1,12 +1,38 @@
 <resources>
     <string name="app_name">quizApp</string>
+
     <string name="qn_1">Question 1</string>
-    <string name="qn_1_text">This is a sample question, just to test how my layout will look. And because it
-        should end with a question mark, I ask, when is a question not a question?</string>
-    <string name="soln_1_a">A.  When it does not contain a question mark</string>
-    <string name="soln_1_b">B.  When the asker asks it tongue in cheek</string>
-    <string name="soln_1_c">C.  No body nose</string>
-    <string name="soln_1_d">D.  Depends on the weather. Or on who\'s asking</string>
+    <string name="qn_1_text">Which of the statements below best completes this statement?\n
+        AI refers to computer systems that: </string>
+    <string name="soln_1_a">A.  Can mimic human beings in perception and
+        rationality with high accuracy</string>
+    <string name="soln_1_b">B.  Can perform complex tasks with higher efficiency
+        than human competitors</string>
+    <string name="soln_1_c">C.  Can learn as humans do and demonstrate improvement if set to execute
+        the same or similar tasks repeatedly</string>
+    <string name="soln_1_d">D.  All the above</string>
+
+    <string name="qn_2">Question 2</string>
+    <string name="qn_2_text">In the wake of early advances in AI in the 1950s, Allan Turing
+        developed a  test to tell \'intelligent\' computer systems and human beings apart.
+        What was the name of the test?</string>
+    <string name="soln_2_a">A.  The Turing Test</string>
+    <string name="soln_2_b">B.  The Imitation Game</string>
+    <string name="soln_2_c">C.  The Sentience Test</string>
+    <string name="soln_2_d">D.  Deep Blue </string>
+
+    <string name="qn_3">Question 3</string>
+    <string name="qn_3_text">A computer was considered to have passed the above test if: </string>
+    <string name="soln_3_a">A.  A judge was convinced the computer imitated the human
+        being with an accuracy of at least 65%</string>
+    <string name="soln_3_b">B.  The computer performed equally as well as or better than
+        the average human player in the traditional Chinese game of Go</string>
+    <string name="soln_3_c">C.  A person receiving information from both the computer and a human being
+        was unable to differentiate between the two sources on that
+        basis of the information alone</string>
+    <string name="soln_3_d">D.  A human being determined that the computer system was self-aware</string>
+
+
     <string name="grade_quiz_btn">Grade quiz</string>
     <string name="your_score">Your Score :</string>
     <string name="your_grade">Your Grade :</string>

@@ -18,8 +18,6 @@ public class MainActivity extends AppCompatActivity {
      * Method (it and the one below it) compare selected responses to
      * correct ones and update score as applies
      * Also update Grade and Remark
-     *
-     * @param view
      */
     public void gradeQuiz(View view) {
 
@@ -44,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         String displayScore = getString(R.string.your_score) + " " + score + " out of 15.";
-        TextView scoreTextView = (TextView) findViewById(R.id.your_score);
+        TextView scoreTextView = findViewById(R.id.your_score);
         scoreTextView.setText(displayScore);
 
     }
