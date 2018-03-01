@@ -30,7 +30,8 @@
             android:text="@string/qn_1_text"
             android:textColor="@color/question_color"
             android:lineSpacingExtra="3dp"
-            android:textSize="16sp"/>
+            android:textStyle="bold"
+            android:textSize="@dimen/qn_text_font_size"/>
 
 
         <RadioGroup
@@ -54,7 +55,7 @@
                 android:layout_height="wrap_content"
                 android:button="@android:color/transparent"
                 android:text="@string/soln_1_a"
-                android:textAppearance="?android:textAppearanceSmall"/>
+                android:textSize="@dimen/soln_text_size"/>
 
             <RadioButton
                 android:background="@drawable/radio_bg"
@@ -66,7 +67,7 @@
                 android:layout_height="wrap_content"
                 android:button="@android:color/transparent"
                 android:text="@string/soln_1_b"
-                android:textAppearance="?android:textAppearanceSmall"/>
+                android:textSize="@dimen/soln_text_size"/>
 
             <RadioButton
                 android:background="@drawable/radio_bg"
@@ -78,7 +79,7 @@
                 android:layout_height="wrap_content"
                 android:button="@android:color/transparent"
                 android:text="@string/soln_1_c"
-                android:textAppearance="?android:textAppearanceSmall"/>
+                android:textSize="@dimen/soln_text_size"/>
 
             <RadioButton
                 android:background="@drawable/radio_bg"
@@ -90,7 +91,7 @@
                 android:layout_height="wrap_content"
                 android:button="@android:color/transparent"
                 android:text="@string/soln_1_d"
-                android:textAppearance="?android:textAppearanceSmall"/>
+                android:textSize="@dimen/soln_text_size"/>
 
         </RadioGroup>
 

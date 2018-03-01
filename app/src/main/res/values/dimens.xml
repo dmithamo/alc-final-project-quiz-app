@@ -15,7 +15,9 @@
     <dimen name="button_padding_end">4dp</dimen>
     <dimen name="button_padding_start">12dp</dimen>
     <dimen name="radius_of_shape_bg">2dp</dimen>
-    <dimen name="qn_font_size">24sp</dimen>
+    <dimen name="qn_font_size">18sp</dimen>
     <dimen name="button_padding_btm">20dp</dimen>
     <dimen name="button_padding_btm_2">16dp</dimen>
+    <dimen name="qn_text_font_size">13sp</dimen>
+    <dimen name="soln_text_size">12sp</dimen>
 </resources>

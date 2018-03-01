@@ -6,6 +6,7 @@
     <color name="question_color">#000000</color>
     <color name="solutions_bg">#fff</color>
     <color name="soln_divider_color">#000</color>
-    <color name="bg_color">#f6f6f0</color>
+    <color name="bg_color">#f6f6f6</color>
+    <color name="radio_checked_color">#0086c2</color>
     <color name="border_color">@color/colorPrimary</color>
 </resources>
