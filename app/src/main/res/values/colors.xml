@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#4C97DE</color>
-    <color name="colorAccent">#FF4081</color>
-    <color name="question_color">#fff</color>
+    <color name="colorPrimary">#29b6f6</color>
+    <color name="colorPrimaryDark">#0086c3</color>
+    <color name="colorAccent">#73e8ff</color>
+    <color name="question_color">#000000</color>
     <color name="solutions_bg">#fff</color>
     <color name="soln_divider_color">#000</color>
+    <color name="bg_color">#e0e0e0</color>
+    <color name="border_color">@color/colorPrimary</color>
 </resources>

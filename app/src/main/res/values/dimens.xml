@@ -6,8 +6,12 @@
     <dimen name="qn_margin_bottom">8dp</dimen>
     <dimen name="soln_margin_left">16dp</dimen>
     <dimen name="soln_margin_bottom">24dp</dimen>
-    <dimen name="soln_margin_top">16dp</dimen>
+    <dimen name="solngrp_margin_top">16dp</dimen>
     <dimen name="soln_margin_right">8dp</dimen>
     <dimen name="soln_divider_size">1dp</dimen>
     <dimen name="soln_divider_margin">8dp</dimen>
+    <dimen name="soln_margin_btm">8dp</dimen>
+    <dimen name="button_padding">8dp</dimen>
+    <dimen name="radius_of_shape_bg">2dp</dimen>
+    <dimen name="qn_font_size">24sp</dimen>
 </resources>
