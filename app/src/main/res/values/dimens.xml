@@ -4,7 +4,7 @@
     <dimen name="layout_padding_left">16dp</dimen>
     <dimen name="layout_padding_right">8dp</dimen>
     <dimen name="qn_margin_bottom">8dp</dimen>
-    <dimen name="soln_margin_left">16dp</dimen>
+    <dimen name="soln_margin_left">8dp</dimen>
     <dimen name="soln_margin_bottom">24dp</dimen>
     <dimen name="solngrp_margin_top">16dp</dimen>
     <dimen name="soln_margin_right">8dp</dimen>
@@ -12,6 +12,10 @@
     <dimen name="soln_divider_margin">8dp</dimen>
     <dimen name="soln_margin_btm">8dp</dimen>
     <dimen name="button_padding">8dp</dimen>
+    <dimen name="button_padding_end">4dp</dimen>
+    <dimen name="button_padding_start">12dp</dimen>
     <dimen name="radius_of_shape_bg">2dp</dimen>
     <dimen name="qn_font_size">24sp</dimen>
+    <dimen name="button_padding_btm">20dp</dimen>
+    <dimen name="button_padding_btm_2">16dp</dimen>
 </resources>

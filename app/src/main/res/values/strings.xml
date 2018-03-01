@@ -3,8 +3,8 @@
     <string name="qn_1">Question 1</string>
     <string name="qn_1_text">This is a sample question, just to test how my layout will look. And because it
         should end with a question mark, I ask, when is a question not a question?</string>
-    <string name="soln_1_a">When it does not contain a question mark</string>
-    <string name="soln_1_b">When the asker asks it tongue in cheek</string>
-    <string name="soln_1_c">No body nose</string>
-    <string name="soln_1_d">Depends on the weather. Or on who\'s asking</string>
+    <string name="soln_1_a">A.  When it does not contain a question mark</string>
+    <string name="soln_1_b">B.  When the asker asks it tongue in cheek</string>
+    <string name="soln_1_c">C.  No body nose</string>
+    <string name="soln_1_d">D.  Depends on the weather. Or on who\'s asking</string>
 </resources>

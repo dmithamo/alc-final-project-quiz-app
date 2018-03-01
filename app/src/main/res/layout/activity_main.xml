@@ -47,7 +47,7 @@
             <RadioButton
                 android:background="@drawable/radio_bg"
                 android:paddingBottom="16dp"
-                android:paddingStart="@dimen/button_padding"
+                android:paddingStart="@dimen/button_padding_start"
                 android:paddingEnd="@dimen/button_padding"
                 android:paddingTop="8dp"
                 android:layout_width="match_parent"
@@ -56,55 +56,36 @@
                 android:text="@string/soln_1_a"
                 android:textAppearance="?android:textAppearanceSmall"/>
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="@color/border_color"/>
-
             <RadioButton
                 android:background="@drawable/radio_bg"
                 android:paddingTop="@dimen/button_padding"
-                android:paddingStart="@dimen/button_padding"
-                android:paddingEnd="@dimen/button_padding"
-                android:paddingBottom="16dp"
+                android:paddingStart="@dimen/button_padding_start"
+                android:paddingEnd="@dimen/button_padding_end"
+                android:paddingBottom="@dimen/button_padding_btm_2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:button="@android:color/transparent"
                 android:text="@string/soln_1_b"
                 android:textAppearance="?android:textAppearanceSmall"/>
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="@color/border_color"/>
-
-
-
             <RadioButton
                 android:background="@drawable/radio_bg"
                 android:paddingTop="@dimen/button_padding"
-                android:paddingStart="@dimen/button_padding"
-                android:paddingEnd="@dimen/button_padding"
-                android:paddingBottom="16dp"
+                android:paddingStart="@dimen/button_padding_start"
+                android:paddingEnd="@dimen/button_padding_end"
+                android:paddingBottom="@dimen/button_padding_btm_2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:button="@android:color/transparent"
                 android:text="@string/soln_1_c"
                 android:textAppearance="?android:textAppearanceSmall"/>
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="@color/border_color"/>
-
-
-
             <RadioButton
                 android:background="@drawable/radio_bg"
                 android:paddingTop="@dimen/button_padding"
-                android:paddingStart="@dimen/button_padding"
-                android:paddingEnd="@dimen/button_padding"
-                android:paddingBottom="20dp"
+                android:paddingStart="@dimen/button_padding_start"
+                android:paddingEnd="@dimen/button_padding_end"
+                android:paddingBottom="@dimen/button_padding_btm"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:button="@android:color/transparent"
