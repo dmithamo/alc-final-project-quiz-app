@@ -102,30 +102,31 @@
 
 
         <TextView
-            android:text="@string/test_ends_here"
-            android:textAllCaps="true"
-            android:layout_width="match_parent"
-            android:textColor="@color/scores_color"
-            android:textStyle="bold"
-            android:layout_height="wrap_content"/>
-
-        <LinearLayout
-            android:layout_marginTop="@dimen/solngrp_margin_top"
-            android:elevation="8dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:background="@drawable/scorecard_bg"
+            android:text="@string/test_ends_here"
+            android:textAllCaps="true"
+            android:textColor="@color/scores_color"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/scoreboard_margin_end"
             android:layout_marginStart="@dimen/scoreboard_margin_start"
-            android:layout_marginEnd="@dimen/scoreboard_margin_end">
+            android:layout_marginTop="@dimen/solngrp_margin_top"
+            android:background="@drawable/scorecard_bg"
+            android:elevation="8dp"
+            android:orientation="vertical">
 
             <Button
-                android:layout_marginTop="8dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
                 android:background="@drawable/button_bg"
                 android:elevation="@dimen/elevation_shadow"
+                android:onClick="gradeQuiz"
                 android:paddingEnd="@dimen/grade_btn_padding"
                 android:paddingStart="@dimen/grade_btn_padding"
                 android:text="@string/grade_quiz_btn"
@@ -133,13 +134,14 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/your_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:padding="@dimen/scores_padding"
                 android:text="@string/your_score"
                 android:textAllCaps="true"
-                android:layout_width="match_parent"
                 android:textColor="@color/scores_color"
-                android:textStyle="bold"
-                android:layout_height="wrap_content"/>
+                android:textStyle="bold" />
 
             <View
                 android:layout_width="match_parent"
@@ -147,13 +149,14 @@
                 android:background="@color/colorPrimary"/>
 
             <TextView
+                android:id="@+id/your_grade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:padding="@dimen/scores_padding"
                 android:text="@string/your_grade"
                 android:textAllCaps="true"
-                android:layout_width="match_parent"
                 android:textColor="@color/scores_color"
-                android:textStyle="bold"
-                android:layout_height="wrap_content"/>
+                android:textStyle="bold" />
 
             <View
                 android:layout_width="match_parent"
@@ -161,16 +164,17 @@
                 android:background="@color/colorPrimary"/>
 
             <TextView
-                android:paddingStart="@dimen/scores_padding"
+                android:id="@+id/our_remark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/bottom_txt_padding"
                 android:paddingEnd="@dimen/scores_padding"
+                android:paddingStart="@dimen/scores_padding"
                 android:paddingTop="@dimen/scores_padding"
                 android:text="@string/our_remarks"
                 android:textAllCaps="true"
-                android:layout_width="match_parent"
                 android:textColor="@color/scores_color"
-                android:textStyle="bold"
-                android:paddingBottom="@dimen/bottom_txt_padding"
-                android:layout_height="wrap_content"/>
+                android:textStyle="bold" />
 
         </LinearLayout>
 
