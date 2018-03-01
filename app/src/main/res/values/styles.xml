@@ -7,6 +7,6 @@
         <item name="colorPrimaryDark">#0086c3</item>
         <item name="colorAccent">#73e8ff</item>
         <item name="android:fontFamily">@font/montserratregular</item>
-    </style>
+    </style>+
 
 </resources>
