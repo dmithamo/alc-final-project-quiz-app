@@ -7,100 +7,174 @@
     tools:context="com.example.dennis.quizapp.MainActivity">
 
     <LinearLayout
-        android:paddingTop="@dimen/layout_padding_top_bottom"
-        android:paddingStart="@dimen/layout_padding_left"
-        android:paddingEnd="@dimen/layout_padding_right"
-        android:paddingBottom="@dimen/layout_padding_top_bottom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/layout_padding_top_bottom"
+        android:paddingEnd="@dimen/layout_padding_right"
+        android:paddingStart="@dimen/layout_padding_left"
+        android:paddingTop="@dimen/layout_padding_top_bottom">
 
         <TextView
-            android:textStyle="bold"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/qn_margin_bottom"
             android:text="@string/qn_1"
             android:textColor="@color/question_color"
-            android:layout_marginBottom="@dimen/qn_margin_bottom"
-            android:textSize="@dimen/qn_font_size"/>
+            android:textSize="@dimen/qn_font_size"
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:lineSpacingExtra="3dp"
             android:text="@string/qn_1_text"
             android:textColor="@color/question_color"
-            android:lineSpacingExtra="3dp"
-            android:textStyle="bold"
-            android:textSize="@dimen/qn_text_font_size"/>
+            android:textSize="@dimen/qn_text_font_size"
+            android:textStyle="bold" />
 
 
         <RadioGroup
-            android:elevation="8dp"
+            android:id="@+id/rg_qn1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:background="@drawable/solutions_bg"
-            android:layout_marginTop="@dimen/solngrp_margin_top"
             android:layout_marginBottom="@dimen/solngrp_margin_top"
             android:layout_marginEnd="@dimen/soln_margin_right"
-            android:layout_marginStart="@dimen/soln_margin_left">
+            android:layout_marginStart="@dimen/soln_margin_left"
+            android:layout_marginTop="@dimen/solngrp_margin_top"
+            android:background="@drawable/solutions_bg"
+            android:elevation="@dimen/elevation_shadow"
+            android:orientation="vertical">
 
             <RadioButton
+                android:id="@+id/soln_1a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:background="@drawable/radio_bg"
+                android:button="@android:color/transparent"
                 android:paddingBottom="16dp"
-                android:paddingStart="@dimen/button_padding_start"
                 android:paddingEnd="@dimen/button_padding"
+                android:paddingStart="@dimen/button_padding_start"
                 android:paddingTop="8dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:button="@android:color/transparent"
                 android:text="@string/soln_1_a"
-                android:textSize="@dimen/soln_text_size"/>
+                android:textSize="@dimen/soln_text_size" />
 
             <RadioButton
-                android:background="@drawable/radio_bg"
-                android:paddingTop="@dimen/button_padding"
-                android:paddingStart="@dimen/button_padding_start"
-                android:paddingEnd="@dimen/button_padding_end"
-                android:paddingBottom="@dimen/button_padding_btm_2"
+                android:id="@+id/soln_1b"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/radio_bg"
                 android:button="@android:color/transparent"
+                android:paddingBottom="@dimen/button_padding_btm_2"
+                android:paddingEnd="@dimen/button_padding_end"
+                android:paddingStart="@dimen/button_padding_start"
+                android:paddingTop="@dimen/button_padding"
                 android:text="@string/soln_1_b"
-                android:textSize="@dimen/soln_text_size"/>
+                android:textSize="@dimen/soln_text_size" />
 
             <RadioButton
+                android:id="@+id/soln_1c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:background="@drawable/radio_bg"
-                android:paddingTop="@dimen/button_padding"
-                android:paddingStart="@dimen/button_padding_start"
-                android:paddingEnd="@dimen/button_padding_end"
+                android:button="@android:color/transparent"
                 android:paddingBottom="@dimen/button_padding_btm_2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:button="@android:color/transparent"
+                android:paddingEnd="@dimen/button_padding_end"
+                android:paddingStart="@dimen/button_padding_start"
+                android:paddingTop="@dimen/button_padding"
                 android:text="@string/soln_1_c"
-                android:textSize="@dimen/soln_text_size"/>
+                android:textSize="@dimen/soln_text_size" />
 
             <RadioButton
-                android:background="@drawable/radio_bg"
-                android:paddingTop="@dimen/button_padding"
-                android:paddingStart="@dimen/button_padding_start"
-                android:paddingEnd="@dimen/button_padding_end"
-                android:paddingBottom="@dimen/button_padding_btm"
+                android:id="@+id/soln_1d"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/radio_bg"
                 android:button="@android:color/transparent"
+                android:paddingBottom="@dimen/button_padding_btm"
+                android:paddingEnd="@dimen/button_padding_end"
+                android:paddingStart="@dimen/button_padding_start"
+                android:paddingTop="@dimen/button_padding"
                 android:text="@string/soln_1_d"
-                android:textSize="@dimen/soln_text_size"/>
+                android:textSize="@dimen/soln_text_size" />
 
         </RadioGroup>
 
 
+        <TextView
+            android:text="@string/test_ends_here"
+            android:textAllCaps="true"
+            android:layout_width="match_parent"
+            android:textColor="@color/scores_color"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"/>
 
+        <LinearLayout
+            android:layout_marginTop="@dimen/solngrp_margin_top"
+            android:elevation="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/scorecard_bg"
+            android:layout_marginStart="@dimen/scoreboard_margin_start"
+            android:layout_marginEnd="@dimen/scoreboard_margin_end">
 
+            <Button
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/button_bg"
+                android:elevation="@dimen/elevation_shadow"
+                android:paddingEnd="@dimen/grade_btn_padding"
+                android:paddingStart="@dimen/grade_btn_padding"
+                android:text="@string/grade_quiz_btn"
+                android:textColor="@color/grade_btn_text_color"
+                android:textStyle="bold" />
+
+            <TextView
+                android:padding="@dimen/scores_padding"
+                android:text="@string/your_score"
+                android:textAllCaps="true"
+                android:layout_width="match_parent"
+                android:textColor="@color/scores_color"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary"/>
+
+            <TextView
+                android:padding="@dimen/scores_padding"
+                android:text="@string/your_grade"
+                android:textAllCaps="true"
+                android:layout_width="match_parent"
+                android:textColor="@color/scores_color"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary"/>
+
+            <TextView
+                android:paddingStart="@dimen/scores_padding"
+                android:paddingEnd="@dimen/scores_padding"
+                android:paddingTop="@dimen/scores_padding"
+                android:text="@string/our_remarks"
+                android:textAllCaps="true"
+                android:layout_width="match_parent"
+                android:textColor="@color/scores_color"
+                android:textStyle="bold"
+                android:paddingBottom="@dimen/bottom_txt_padding"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
 
     </LinearLayout>
-
 
 
 </ScrollView>

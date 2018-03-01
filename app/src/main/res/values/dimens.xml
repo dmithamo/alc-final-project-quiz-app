@@ -20,4 +20,11 @@
     <dimen name="button_padding_btm_2">16dp</dimen>
     <dimen name="qn_text_font_size">13sp</dimen>
     <dimen name="soln_text_size">12sp</dimen>
+    <dimen name="grade_btn_padding">24dp</dimen>
+    <dimen name="scores_padding">16dp</dimen>
+    <dimen name="scoreboard_margin_start">8dp</dimen>
+    <dimen name="scoreboard_margin_end">24dp</dimen>
+    <dimen name="grade_margin_start">96dp</dimen>
+    <dimen name="elevation_shadow">8dp</dimen>
+    <dimen name="bottom_txt_padding">24dp</dimen>
 </resources>

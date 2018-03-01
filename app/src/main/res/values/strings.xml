@@ -7,4 +7,9 @@
     <string name="soln_1_b">B.  When the asker asks it tongue in cheek</string>
     <string name="soln_1_c">C.  No body nose</string>
     <string name="soln_1_d">D.  Depends on the weather. Or on who\'s asking</string>
+    <string name="grade_quiz_btn">Grade quiz</string>
+    <string name="your_score">Your Score :</string>
+    <string name="your_grade">Your Grade :</string>
+    <string name="our_remarks">Our Remarks :</string>
+    <string name="test_ends_here">Test ends here.</string>
 </resources>
