@@ -101,4 +101,5 @@
     <string name="fail_remark">This saddens me so very much :( . I hope you\'re sad too</string>
     <string name="pass_remark">You passed. But only just</string>
     <string name="ace_remark">Not bad. Not bad at all</string>
+    <string name="play_again">play again</string>
 </resources>

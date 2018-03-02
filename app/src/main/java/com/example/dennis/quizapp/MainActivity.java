@@ -1,5 +1,6 @@
 package com.example.dennis.quizapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -121,4 +122,9 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void resetQuiz(View view) {
+        Intent mIntent = new Intent(MainActivity.this, MainActivity.class);
+        startActivity(mIntent);
+        finish();
+    }
 }
