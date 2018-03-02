@@ -66,6 +66,17 @@
     <string name="soln_6_d">D.  All the above refer to hacking techniques, and are
         correctly matched with their definitions</string>
 
+    <string name="qn_7">Question 7</string>
+    <string name="qn_7_text">Which of these three mobile phone platforms is the most difficult to hack,
+        and why?</string>
+    <string name="soln_7_a">A.  Apple iOs ; because it employs industry recommended Pre-Relay
+        Isolated Storage and Serialization techniques, which store all user data only on the device,
+        and must encrypt and serialize all user data BEFORE it is
+        backed up in their servers</string>
+    <string name="soln_7_b">B.  Microsoft Windows Mobile OS ; because it is the least adopted
+        mobile system of these three</string>
+    <string name="soln_7_c">C.  Android ; because it has a larger user base, and
+        therefore benefits from a vast research base</string>
 
     <string name="grade_quiz_btn">Grade quiz</string>
     <string name="your_score">Your Score :</string>

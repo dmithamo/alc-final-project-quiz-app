@@ -78,6 +78,15 @@ public class MainActivity extends AppCompatActivity {
             score += 1;
         }
 
+        //  Question Seven params
+        RadioGroup questionSeven = findViewById(R.id.rg_qn7);
+        int selectedQnSevenID = questionSeven.getCheckedRadioButtonId();
+        int correctQnSevenID = findViewById(R.id.soln_7b).getId();
+//      Check qn 5 answer
+        if (selectedQnSevenID == correctQnSevenID) {
+            score += 1;
+        }
+
         String displayScore = getString(R.string.your_score) + " " + score + " out of 5.";
         TextView scoreTextView = findViewById(R.id.your_score);
         scoreTextView.setText(displayScore);
