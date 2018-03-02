@@ -21,8 +21,9 @@ public class MainActivity extends AppCompatActivity {
     public void gradeQuiz(View view) {
 
         int score = 0;
-//        int grade = 0;
-//        String remark = "";
+        int grade = 0;
+        String remark = "";
+        String letterGrade = "";
 
 //      Question One params
         RadioGroup questionOne = findViewById(R.id.rg_qn1);
@@ -99,6 +100,26 @@ public class MainActivity extends AppCompatActivity {
         String displayScore = getString(R.string.your_score) + " " + score + " out of 5.";
         TextView scoreTextView = findViewById(R.id.your_score);
         scoreTextView.setText(displayScore);
+
+        grade = score/8 * 100;
+        if (grade > 80 ) {
+            letterGrade = "A";
+            remark = getString(R.string.ace_remark);
+        } else if (grade >= 50) {
+            letterGrade = "C";
+            remark = getString(R.string.pass_remark);
+        } else if (grade < 50) {
+            letterGrade = "D";
+            remark = getString(R.string.fail_remark);
+        }
+
+        String displayGrade = getString(R.string.your_grade) + " " + grade + " : " + letterGrade;
+        TextView gradeTextView = findViewById(R.id.your_grade);
+        gradeTextView.setText(displayGrade);
+
+        String displayRemark = getString(R.string.our_remarks);
+        TextView remarkTextView = findViewById(R.id.our_remark);
+        remarkTextView.setText(displayRemark);
 
     }
 

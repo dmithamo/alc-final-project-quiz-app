@@ -99,4 +99,7 @@
     <string name="test_ends_here">Quiz ends here.</string>
     <string name="section_1">section 1</string>
     <string name="section_2">section 2</string>
+    <string name="fail_remark">This saddens me so very much :( . I hope you\'re sad too</string>
+    <string name="pass_remark">You passed. But only just</string>
+    <string name="ace_remark">Not bad. Not bad at all</string>
 </resources>
