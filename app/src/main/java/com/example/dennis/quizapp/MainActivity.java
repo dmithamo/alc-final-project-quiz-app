@@ -82,8 +82,17 @@ public class MainActivity extends AppCompatActivity {
         RadioGroup questionSeven = findViewById(R.id.rg_qn7);
         int selectedQnSevenID = questionSeven.getCheckedRadioButtonId();
         int correctQnSevenID = findViewById(R.id.soln_7b).getId();
-//      Check qn 5 answer
+//      Check qn 7 answer
         if (selectedQnSevenID == correctQnSevenID) {
+            score += 1;
+        }
+
+        //  Question Eight params
+        RadioGroup questionEight = findViewById(R.id.rg_qn8);
+        int selectedQnEightID = questionSeven.getCheckedRadioButtonId();
+        int correctQnEightID = findViewById(R.id.soln_8d).getId();
+//      Check qn 7 answer
+        if (selectedQnEightID == correctQnEightID) {
             score += 1;
         }
 

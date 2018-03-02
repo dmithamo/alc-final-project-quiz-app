@@ -493,7 +493,6 @@
             android:textSize="@dimen/qn_text_font_size"
             android:textStyle="bold" />
 
-
         <RadioGroup
             android:id="@+id/rg_qn6"
             android:layout_width="match_parent"
@@ -630,6 +629,91 @@
                 android:paddingTop="@dimen/button_padding"
                 android:text="@string/soln_7_c"
                 android:textSize="@dimen/soln_text_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/qn_margin_bottom"
+                android:text="@string/qn_8"
+                android:textColor="@color/question_color"
+                android:textSize="@dimen/qn_font_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="3dp"
+                android:text="@string/qn_8_text"
+                android:textColor="@color/question_color"
+                android:textSize="@dimen/qn_text_font_size"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/rg_qn8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/solngrp_margin_top"
+                android:layout_marginEnd="@dimen/soln_margin_right"
+                android:layout_marginStart="@dimen/soln_margin_left"
+                android:layout_marginTop="@dimen/solngrp_margin_top"
+                android:background="@drawable/solutions_bg"
+                android:elevation="@dimen/elevation_shadow"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/soln_8a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/radio_bg"
+                    android:button="@android:color/transparent"
+                    android:paddingBottom="16dp"
+                    android:paddingEnd="@dimen/button_padding"
+                    android:paddingStart="@dimen/button_padding_start"
+                    android:paddingTop="8dp"
+                    android:text="@string/soln_8_a"
+                    android:textSize="@dimen/soln_text_size" />
+
+                <RadioButton
+                    android:id="@+id/soln_8b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/radio_bg"
+                    android:button="@android:color/transparent"
+                    android:paddingBottom="@dimen/button_padding_btm_2"
+                    android:paddingEnd="@dimen/button_padding_end"
+                    android:paddingStart="@dimen/button_padding_start"
+                    android:paddingTop="@dimen/button_padding"
+                    android:text="@string/soln_8_b"
+                    android:textSize="@dimen/soln_text_size" />
+
+                <RadioButton
+                    android:id="@+id/soln_8c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/radio_bg"
+                    android:button="@android:color/transparent"
+                    android:paddingBottom="@dimen/button_padding_btm_2"
+                    android:paddingEnd="@dimen/button_padding_end"
+                    android:paddingStart="@dimen/button_padding_start"
+                    android:paddingTop="@dimen/button_padding"
+                    android:text="@string/soln_8_c"
+                    android:textSize="@dimen/soln_text_size" />
+
+                <RadioButton
+                    android:id="@+id/soln_8d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/radio_bg"
+                    android:button="@android:color/transparent"
+                    android:paddingBottom="@dimen/button_padding_btm"
+                    android:paddingEnd="@dimen/button_padding_end"
+                    android:paddingStart="@dimen/button_padding_start"
+                    android:paddingTop="@dimen/button_padding"
+                    android:text="@string/soln_8_d"
+                    android:textSize="@dimen/soln_text_size" />
+
+            </RadioGroup>
+
 
         </RadioGroup>
 

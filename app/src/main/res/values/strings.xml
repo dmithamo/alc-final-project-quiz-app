@@ -53,7 +53,7 @@
     <string name="qn_6">Question 6</string>
     <string name="qn_6_text">Some of the following terms refer to types of hacking
         techniques than an attacker might use. [And some don\'t]. Which one does AND
-        is correctly matched with its definition?</string>
+        is correctly matched with its description?</string>
     <string name="soln_6_a">A.  Keylogger : attacker directs a computer system to record input from
         the keyboard into a log file, including entered passwords and logins. He then studies the
         log file for logins into a target system</string>
@@ -77,6 +77,20 @@
         mobile system of these three</string>
     <string name="soln_7_c">C.  Android ; because it has a larger user base, and
         therefore benefits from a vast research base</string>
+
+    <string name="qn_8">Question 8</string>
+    <string name="qn_8_text">Some of the following terms are commonly used in reference to
+        various types of hackers. Which one doesn\'t refer to a type of hacker,  OR
+        is incorrectly matched with its description?</string>
+    <string name="soln_8_a">A.  White Hat Hacker : also called ethical hacker, hacks into computer
+        systems to identify vulnerabilities in the system in order to sensitize the systems\'s
+        owners of such vulnerabilities</string>
+    <string name="soln_8_b">B.  Black Hat Hacker : exploits vulnerabilities in computer systems
+        illegally for some selfish interest non-beneficial to the owner</string>
+    <string name="soln_8_c">C.  Hacktivist : subversively uses computer systems to
+        promote a political agenda or social change</string>
+    <string name="soln_8_d">D.  Grey Hat Hacker : hired by white hat or black hat hackers to
+        identify and exploit vulnerabilities in computer systems</string>
 
     <string name="grade_quiz_btn">Grade quiz</string>
     <string name="your_score">Your Score :</string>
