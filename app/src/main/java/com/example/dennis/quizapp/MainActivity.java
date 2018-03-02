@@ -7,8 +7,6 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
         if (selectedQnOneID == correctQnOneID) {
             score += 1;
         }
-        ;
 
         //  Question Two params
         RadioGroup questionTwo = (RadioGroup) findViewById(R.id.rg_qn2);
@@ -42,6 +39,24 @@ public class MainActivity extends AppCompatActivity {
         int correctQnTwoID = findViewById(R.id.soln_2a).getId();
 //      Check qn 2 answer
         if (selectedQnTwoID == correctQnTwoID) {
+            score += 1;
+        }
+
+        //  Question Three params
+        RadioGroup questionThree = (RadioGroup) findViewById(R.id.rg_qn3);
+        int selectedQnThreeID = questionThree.getCheckedRadioButtonId();
+        int correctQnThreeID = findViewById(R.id.soln_3c).getId();
+//      Check qn 3 answer
+        if (selectedQnThreeID == correctQnThreeID) {
+            score += 1;
+        }
+
+        //  Question Four params
+        RadioGroup questionFour = (RadioGroup) findViewById(R.id.rg_qn4);
+        int selectedQnFourID = questionFour.getCheckedRadioButtonId();
+        int correctQnFourID = findViewById(R.id.soln_4c).getId();
+//      Check qn 3 answer
+        if (selectedQnFourID == correctQnFourID) {
             score += 1;
         }
 

@@ -32,6 +32,14 @@
         basis of the information alone</string>
     <string name="soln_3_d">D.  A human being determined that the computer system was self-aware</string>
 
+    <string name="qn_4">Question 4</string>
+    <string name="qn_4_text">Which of the following terms is not associated with
+        Artificial Intelligence </string>
+    <string name="soln_4_a">A.  Ambient Intelligence</string>
+    <string name="soln_4_b">B.  Bees Algorithm</string>
+    <string name="soln_4_c">C.  Containerized Embedding</string>
+    <string name="soln_4_d">D.  Decision Theory</string>
+
 
     <string name="grade_quiz_btn">Grade quiz</string>
     <string name="your_score">Your Score :</string>
