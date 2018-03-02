@@ -55,12 +55,21 @@ public class MainActivity extends AppCompatActivity {
         RadioGroup questionFour = (RadioGroup) findViewById(R.id.rg_qn4);
         int selectedQnFourID = questionFour.getCheckedRadioButtonId();
         int correctQnFourID = findViewById(R.id.soln_4c).getId();
-//      Check qn 3 answer
+//      Check qn 4 answer
         if (selectedQnFourID == correctQnFourID) {
             score += 1;
         }
 
-        String displayScore = getString(R.string.your_score) + " " + score + " out of 15.";
+        //  Question Five params
+        RadioGroup questionFive = (RadioGroup) findViewById(R.id.rg_qn5);
+        int selectedQnFiveID = questionFive.getCheckedRadioButtonId();
+        int correctQnFiveID = findViewById(R.id.soln_5d).getId();
+//      Check qn 5 answer
+        if (selectedQnFiveID == correctQnFiveID) {
+            score += 1;
+        }
+
+        String displayScore = getString(R.string.your_score) + " " + score + " out of 5.";
         TextView scoreTextView = findViewById(R.id.your_score);
         scoreTextView.setText(displayScore);
 

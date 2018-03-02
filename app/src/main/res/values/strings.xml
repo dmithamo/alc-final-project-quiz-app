@@ -34,11 +34,19 @@
 
     <string name="qn_4">Question 4</string>
     <string name="qn_4_text">Which of the following terms is not associated with
-        Artificial Intelligence </string>
+        Artificial Intelligence?</string>
     <string name="soln_4_a">A.  Ambient Intelligence</string>
     <string name="soln_4_b">B.  Bees Algorithm</string>
     <string name="soln_4_c">C.  Containerized Embedding</string>
     <string name="soln_4_d">D.  Decision Theory</string>
+
+    <string name="qn_5">Question 5</string>
+    <string name="qn_5_text">Which of the following terms describes a category of
+        Artificial Intelligence?</string>
+    <string name="soln_5_a">A.  Artificial General Intelligence</string>
+    <string name="soln_5_b">B.  Narrow AI </string>
+    <string name="soln_5_c">C.  Superintelligence</string>
+    <string name="soln_5_d">D.  All the above</string>
 
 
     <string name="grade_quiz_btn">Grade quiz</string>
