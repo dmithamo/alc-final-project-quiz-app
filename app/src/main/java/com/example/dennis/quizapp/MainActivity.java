@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
     public void gradeQuiz(View view) {
 
         int score = 0;
-        int grade = 0;
         String remark = "";
         String letterGrade = "";
 
@@ -90,34 +89,33 @@ public class MainActivity extends AppCompatActivity {
 
         //  Question Eight params
         RadioGroup questionEight = findViewById(R.id.rg_qn8);
-        int selectedQnEightID = questionSeven.getCheckedRadioButtonId();
+        int selectedQnEightID = questionEight.getCheckedRadioButtonId();
         int correctQnEightID = findViewById(R.id.soln_8d).getId();
 //      Check qn 7 answer
         if (selectedQnEightID == correctQnEightID) {
             score += 1;
         }
 
-        String displayScore = getString(R.string.your_score) + " " + score + " out of 5.";
+        String displayScore = getString(R.string.your_score) + " " + score + " out of 8.";
         TextView scoreTextView = findViewById(R.id.your_score);
         scoreTextView.setText(displayScore);
 
-        grade = score/8 * 100;
-        if (grade > 80 ) {
+        if (score > 7 ) {
             letterGrade = "A";
             remark = getString(R.string.ace_remark);
-        } else if (grade >= 50) {
+        } else if (score >= 5) {
             letterGrade = "C";
             remark = getString(R.string.pass_remark);
-        } else if (grade < 50) {
+        } else if (score < 5) {
             letterGrade = "D";
             remark = getString(R.string.fail_remark);
         }
 
-        String displayGrade = getString(R.string.your_grade) + " " + grade + " : " + letterGrade;
+        String displayGrade = getString(R.string.your_grade) + " " + letterGrade;
         TextView gradeTextView = findViewById(R.id.your_grade);
         gradeTextView.setText(displayGrade);
 
-        String displayRemark = getString(R.string.our_remarks);
+        String displayRemark = getString(R.string.our_remarks) + " " + remark;
         TextView remarkTextView = findViewById(R.id.our_remark);
         remarkTextView.setText(displayRemark);
 

@@ -2,10 +2,10 @@
     <string name="app_name">quizApp</string>
 
     <string name="qn_1">Question 1</string>
-    <string name="qn_1_text">Which of the statements below best completes this statement?\n
-        AI refers to computer systems that: </string>
-    <string name="soln_1_a">A.  Can mimic human beings in perception and
-        rationality with high accuracy</string>
+    <string name="qn_1_text">Which of the statements below best completes this sentence?\n
+        Artificial Intelligence refers to computer systems that: </string>
+    <string name="soln_1_a">A.  Can mimic human beings in decision making, creativity and
+        perception</string>
     <string name="soln_1_b">B.  Can perform complex tasks with higher efficiency
         than human competitors</string>
     <string name="soln_1_c">C.  Can learn as humans do and demonstrate improvement if set to execute
@@ -55,10 +55,10 @@
         techniques than an attacker might use. [And some don\'t]. Which one does AND
         is correctly matched with its description?</string>
     <string name="soln_6_a">A.  Keylogger : attacker directs a computer system to record input from
-        the keyboard into a log file, including entered passwords and logins. He then studies the
+        the keyboard into a log file, including entered logins and passwords. He then studies the
         log file for logins into a target system</string>
     <string name="soln_6_b">B.  Bait and Switch : an attacker fakes a popularly visited site, and sends
-        a link to the fake site to an unsuspecting user. The attacker can the steal any
+        a link to the fake site to an unsuspecting user. The attacker can then steal any
         data the user enters at this trojan site</string>
     <string name="soln_6_c">C.  Denial of Service (DoS/DDoS) : an attacker infects a computer
         system with malware that alters the legitimate access credentials to that
@@ -71,8 +71,7 @@
         and why?</string>
     <string name="soln_7_a">A.  Apple iOs ; because it employs industry recommended Pre-Relay
         Isolated Storage and Serialization techniques, which store all user data only on the device,
-        and must encrypt and serialize all user data BEFORE it is
-        backed up in their servers</string>
+        and must encrypt and serialize all user data before it is sent from the device</string>
     <string name="soln_7_b">B.  Microsoft Windows Mobile OS ; because it is the least adopted
         mobile system of these three</string>
     <string name="soln_7_c">C.  Android ; because it has a larger user base, and
