@@ -27,4 +27,5 @@
     <dimen name="grade_margin_start">96dp</dimen>
     <dimen name="elevation_shadow">8dp</dimen>
     <dimen name="bottom_txt_padding">24dp</dimen>
+    <dimen name="underline_header">100dp</dimen>
 </resources>

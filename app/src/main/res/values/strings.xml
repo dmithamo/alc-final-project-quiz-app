@@ -28,9 +28,11 @@
     <string name="soln_3_b">B.  The computer performed equally as well as or better than
         the average human player in the traditional Chinese game of Go</string>
     <string name="soln_3_c">C.  A person receiving information from both the computer and a human being
-        was unable to differentiate between the two sources on that
-        basis of the information alone</string>
-    <string name="soln_3_d">D.  A human being determined that the computer system was self-aware</string>
+        was unable to differentiate between the two sources on the
+        basis of that information alone</string>
+    <string name="soln_3_d">D.  A human being judged that the computer system could fool human
+        beings into believing it was sentient
+        (i.e., could feel, perceive, experience subjectively)</string>
 
     <string name="qn_4">Question 4</string>
     <string name="qn_4_text">Which of the following terms is not associated with
@@ -38,15 +40,31 @@
     <string name="soln_4_a">A.  Ambient Intelligence</string>
     <string name="soln_4_b">B.  Bees Algorithm</string>
     <string name="soln_4_c">C.  Containerized Embedding</string>
-    <string name="soln_4_d">D.  Decision Theory</string>
+    <string name="soln_4_d">D.  Deep Learning</string>
 
     <string name="qn_5">Question 5</string>
-    <string name="qn_5_text">Which of the following terms describes a category of
+    <string name="qn_5_text">Which of the following terms describes a type of
         Artificial Intelligence?</string>
     <string name="soln_5_a">A.  Artificial General Intelligence</string>
     <string name="soln_5_b">B.  Narrow AI </string>
-    <string name="soln_5_c">C.  Superintelligence</string>
+    <string name="soln_5_c">C.  Strong AI</string>
     <string name="soln_5_d">D.  All the above</string>
+
+    <string name="qn_6">Question 6</string>
+    <string name="qn_6_text">Some of the following terms refer to types of hacking
+        techniques than an attacker might use. [And some don\'t]. Which one does AND
+        is correctly matched with its definition?</string>
+    <string name="soln_6_a">A.  Keylogger : attacker directs a computer system to record input from
+        the keyboard into a log file, including entered passwords and logins. He then studies the
+        log file for logins into a target system</string>
+    <string name="soln_6_b">B.  Bait and Switch : an attacker fakes a popularly visited site, and sends
+        a link to the fake site to an unsuspecting user. The attacker can the steal any
+        data the user enters at this trojan site</string>
+    <string name="soln_6_c">C.  Denial of Service (DoS/DDoS) : an attacker infects a computer
+        system with malware that alters the legitimate access credentials to that
+        computer system, thereby denying legitimate users of the system access to it.</string>
+    <string name="soln_6_d">D.  All the above refer to hacking techniques, and are
+        correctly matched with their definitions</string>
 
 
     <string name="grade_quiz_btn">Grade quiz</string>
@@ -54,4 +72,6 @@
     <string name="your_grade">Your Grade :</string>
     <string name="our_remarks">Our Remarks :</string>
     <string name="test_ends_here">Quiz ends here.</string>
+    <string name="section_1">section 1</string>
+    <string name="section_2">section 2</string>
 </resources>

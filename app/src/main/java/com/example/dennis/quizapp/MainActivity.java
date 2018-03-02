@@ -21,11 +21,11 @@ public class MainActivity extends AppCompatActivity {
     public void gradeQuiz(View view) {
 
         int score = 0;
-        int grade = 0;
-        String remark = "";
+//        int grade = 0;
+//        String remark = "";
 
 //      Question One params
-        RadioGroup questionOne = (RadioGroup) findViewById(R.id.rg_qn1);
+        RadioGroup questionOne = findViewById(R.id.rg_qn1);
         int selectedQnOneID = questionOne.getCheckedRadioButtonId();
         int correctQnOneID = findViewById(R.id.soln_1c).getId();
 //      Check qn 1 answer
@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         //  Question Two params
-        RadioGroup questionTwo = (RadioGroup) findViewById(R.id.rg_qn2);
+        RadioGroup questionTwo = findViewById(R.id.rg_qn2);
         int selectedQnTwoID = questionTwo.getCheckedRadioButtonId();
         int correctQnTwoID = findViewById(R.id.soln_2a).getId();
 //      Check qn 2 answer
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         //  Question Three params
-        RadioGroup questionThree = (RadioGroup) findViewById(R.id.rg_qn3);
+        RadioGroup questionThree = findViewById(R.id.rg_qn3);
         int selectedQnThreeID = questionThree.getCheckedRadioButtonId();
         int correctQnThreeID = findViewById(R.id.soln_3c).getId();
 //      Check qn 3 answer
@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         //  Question Four params
-        RadioGroup questionFour = (RadioGroup) findViewById(R.id.rg_qn4);
+        RadioGroup questionFour = findViewById(R.id.rg_qn4);
         int selectedQnFourID = questionFour.getCheckedRadioButtonId();
         int correctQnFourID = findViewById(R.id.soln_4c).getId();
 //      Check qn 4 answer
@@ -61,11 +61,20 @@ public class MainActivity extends AppCompatActivity {
         }
 
         //  Question Five params
-        RadioGroup questionFive = (RadioGroup) findViewById(R.id.rg_qn5);
+        RadioGroup questionFive = findViewById(R.id.rg_qn5);
         int selectedQnFiveID = questionFive.getCheckedRadioButtonId();
         int correctQnFiveID = findViewById(R.id.soln_5d).getId();
 //      Check qn 5 answer
         if (selectedQnFiveID == correctQnFiveID) {
+            score += 1;
+        }
+
+        //  Question Six params
+        RadioGroup questionSix = findViewById(R.id.rg_qn6);
+        int selectedQnSixID = questionSix.getCheckedRadioButtonId();
+        int correctQnSixID = findViewById(R.id.soln_6a).getId();
+//      Check qn 5 answer
+        if (selectedQnSixID == correctQnSixID) {
             score += 1;
         }
 
