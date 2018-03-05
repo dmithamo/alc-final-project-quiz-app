@@ -755,6 +755,7 @@
                 android:padding="@dimen/scores_padding"
                 android:text="@string/your_score"
                 android:textAllCaps="true"
+                android:textSize="@dimen/scoreboard_font_size"
                 android:textColor="@color/scores_color"
                 android:textStyle="bold" />
 
@@ -770,6 +771,7 @@
                 android:padding="@dimen/scores_padding"
                 android:text="@string/your_grade"
                 android:textAllCaps="true"
+                android:textSize="@dimen/scoreboard_font_size"
                 android:textColor="@color/scores_color"
                 android:textStyle="bold" />
 
@@ -788,6 +790,7 @@
                 android:paddingTop="@dimen/scores_padding"
                 android:text="@string/our_remarks"
                 android:textAllCaps="true"
+                android:textSize="@dimen/scoreboard_font_size"
                 android:textColor="@color/scores_color"
                 android:textStyle="bold" />
 
