@@ -795,10 +795,11 @@
 
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="8dp"
+            android:layout_marginEnd="@dimen/scoreboard_margin_end"
+            android:layout_marginStart="@dimen/scoreboard_margin_start"
+            android:layout_marginTop="@dimen/solngrp_margin_top"
             android:background="@drawable/button_bg"
             android:elevation="@dimen/elevation_shadow"
             android:onClick="resetQuiz"
